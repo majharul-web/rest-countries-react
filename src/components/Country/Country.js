@@ -7,7 +7,7 @@ const Country = (props) => {
   return (
     <div className='country'>
       <h4>Country Name:{name}</h4>
-      <p>Capital:{capital}</p>
+      <p className='text-danger'>Capital:{capital}</p>
       <h6>Population:{population}</h6>
       <img src={flag} alt='' />
     </div>
