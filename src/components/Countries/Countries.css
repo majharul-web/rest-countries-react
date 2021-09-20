@@ -1,0 +1,12 @@
+.countries {
+  background-color: springgreen;
+}
+.countries h3 {
+  padding: 15px 10px;
+}
+
+.country-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
